@@ -1,0 +1,4 @@
+h2 {
+    -webkit-box-reflect: below 1px linear-gradient(transparent, rgba(166, 0, 255, 0.267));
+    text-shadow: 6px 4px 5px;
+}
