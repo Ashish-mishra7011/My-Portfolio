@@ -14,7 +14,7 @@ const Footer = () => {
 				<p className='text-white text-center w-full sm:w-auto font-light'>© {year} Ashish. All rights reserved.</p>
 				<div className='text-white flex justify-around sm:w-[250px] w-full'>
 					
-					<a href="mailto:am7011414408@gmail.com" className='transition ease-in-out duration-300 rounded-md hover:scale-110 cursor-pointer hover:-translate-y-1' style={{ cursor: 'pointer' }}>
+					<a rel="nofollow" href="mailto:am7011414408@gmail.com" className='transition ease-in-out duration-300 rounded-md hover:scale-110 cursor-pointer hover:-translate-y-1' style={{ cursor: 'pointer' }}>
 						<FiMail className='text-xl' />
 					</a>
 					
