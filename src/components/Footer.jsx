@@ -7,6 +7,7 @@ import { FiMail } from 'react-icons/fi';
 
 const Footer = () => {
 	const year = new Date().getFullYear();
+	const email='am7011414408@ggmail.com';
 
 	return (
 		<div className='bg-slate-900 p-4' style={{ cursor: 'default' }}>
@@ -14,7 +15,7 @@ const Footer = () => {
 				<p className='text-white text-center w-full sm:w-auto font-light'>© {year} Ashish. All rights reserved.</p>
 				<div className='text-white flex justify-around sm:w-[250px] w-full'>
 					
-					<a rel="nofollow" href="mailto:am7011414408@gmail.com" className='transition ease-in-out duration-300 rounded-md hover:scale-110 cursor-pointer hover:-translate-y-1' style={{ cursor: 'pointer' }}>
+					<a rel="nofollow" href={`mailto:{email}`} className='transition ease-in-out duration-300 rounded-md hover:scale-110 cursor-pointer hover:-translate-y-1' style={{ cursor: 'pointer' }}>
 						<FiMail className='text-xl' />
 					</a>
 					
