@@ -8,7 +8,7 @@ const ButtonLink = () => {
       href="/Ashish_Mishra_updated_Resume.pdf"
       className='transition ease-in-out duration-300 p-3 rounded-md text-white border-2 hover:bg-white hover:text-black hover:scale-110 hover:-translate-y-1 cursor-pointer'
       
-      download="Ashish_Mishra_ADGIPS.pdf"
+      download="Ashish_Mishra_updated_Resume.pdf"
     >
       View Resume →
     </a>
